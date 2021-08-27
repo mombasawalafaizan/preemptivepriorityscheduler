@@ -1,7 +1,19 @@
+package org.demo;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.layout.GridPane;
 
-public class PrePrioScheduler {
+public class PrePrioScheduler extends Application{
+    
+    @Override
+    public void start(Stage primaryStage){
+        
+    }
+    
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         
